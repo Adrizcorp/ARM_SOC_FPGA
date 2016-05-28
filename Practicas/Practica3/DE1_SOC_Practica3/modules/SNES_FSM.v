@@ -2,33 +2,44 @@ module SNES_FSM(
 				input clk_50,
 				input start,
 				input data_in_snes,
-				output [11:0]buttons_snes,
+				output reg [11:0]buttons_snes,
 				output finish,
 				output idle,
 				output latch_snes,
 				output clk_snes
 				);
 							  //LATCH______CLOCK_____FINISH____IDLE______STATE
-parameter	IDLE  =  10'b0_____________1_________0________1______000001;
-parameter   STATE1=  10'b1_____________1_________0________0______000010;
-parameter   STATE2=  10'b0_____________1_________0________0______000100;
-parameter   STATE3=  10'b0_____________0_________0________0______001000;
-parameter   STATE4=  10'b0_____________1_________0________0______010000;
-parameter   FINISH=  10'b0_____________1_________1________0______100000;
+localparam   IDLE  =  10'b0_____________1_________0________1______000001;
+localparam   STATE1=  10'b1_____________1_________0________0______000010;
+localparam   STATE2=  10'b0_____________1_________0________0______000100;
+localparam   STATE3=  10'b0_____________0_________0________0______001000;
+localparam   STATE4=  10'b0_____________1_________0________0______010000;
+localparam   FINISH=  10'b0_____________1_________1________0______100000;
 							//numero de clocks del relog base de 50 Mhz
-parameter   TIME6u	= 10'd300;
-parameter   TIME12u	= 10'd600;
+localparam   TIME6u	= 10'd300;
+localparam   TIME12u	= 10'd600;
 
 
-reg [9:0]state=IDLE
+reg [9:0]state=IDLE;
 reg [9:0]delay=TIME12u;
 reg [3:0]num_clks=4'd0;
+reg [14:0]buttons_temp=15'd0;
+wire pre_finish=(state[9:0]==STATE4)?1'b1:0;
 assign latch_snes=state[9];
 assign clk_snes=state[8];
 assign finish=state[7];
 assign idle=state[6];
 
 
+always@(posedge pre_finish)
+begin
+	buttons_snes[11:0]<=buttons_temp[11:0];
+end
+
+always@(negedge clk_snes)
+begin							
+	buttons_temp[14:0]<={data_in_snes,buttons_temp[14:1]};
+end
 
 always@(posedge clk_50)
 begin
