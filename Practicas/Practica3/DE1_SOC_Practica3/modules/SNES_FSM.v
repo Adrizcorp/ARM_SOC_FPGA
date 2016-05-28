@@ -56,7 +56,7 @@ begin
    STATE1:begin
 				state[9:0]<=STATE1;
 				delay[9:0]<=delay[9:0]-1'b1;
-				num_clks[3:0]<=4'd0;
+				num_clks[3:0]<=4'd1;
 				if(delay[9:0]==10'd0)
 				begin
 					delay[9:0]<=TIME6u;
@@ -66,7 +66,7 @@ begin
 	STATE2:begin
 				state[9:0]<=STATE2;
 				delay[9:0]<=delay[9:0]-1'b1;
-				num_clks[3:0]<=4'd0;
+				num_clks[3:0]<=num_clks[3:0];
 				if(delay[9:0]==10'd0)
 				begin
 					delay[9:0]<=TIME6u;
