@@ -1,0 +1,22 @@
+D:/Santoto/Practicas/Practica2/modules/atrapador_flancos.v {1 {vlog -work work -stats=none D:/Santoto/Practicas/Practica2/modules/atrapador_flancos.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module atrapador_flancos
+
+Top level modules:
+	atrapador_flancos
+
+} {} {}} D:/Santoto/Practicas/Practica2/modules/divisor_frecuencia.v {1 {vlog -work work -stats=none D:/Santoto/Practicas/Practica2/modules/divisor_frecuencia.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module divisor_frecuencia
+
+Top level modules:
+	divisor_frecuencia
+
+} {} {}} D:/Santoto/Practicas/Practica2/modules/FSM_ejemplo.v {1 {vlog -work work -stats=none D:/Santoto/Practicas/Practica2/modules/FSM_ejemplo.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module FSM_ejemplo
+
+Top level modules:
+	FSM_ejemplo
+
+} {} {}}

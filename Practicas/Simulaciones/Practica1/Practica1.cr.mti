@@ -1,0 +1,8 @@
+D:/Santoto/Practicas/Practica1/modulos/divisor_frecuencia.v {1 {vlog -work work -stats=none D:/Santoto/Practicas/Practica1/modulos/divisor_frecuencia.v
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module divisor_frecuencia
+
+Top level modules:
+	divisor_frecuencia
+
+} {} {}}

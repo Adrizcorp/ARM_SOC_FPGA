@@ -1,0 +1,9 @@
+module FSM_ejemplo(
+					input clk,
+					input start,
+					input sw0,
+					output [7:0]led,
+					output finish
+						);
+
+endmodule

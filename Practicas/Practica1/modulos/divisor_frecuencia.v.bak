@@ -1,0 +1,24 @@
+module divisor_frecuencia(
+	input clk,// CLOCK debe 5 MHZ
+	input reset,// Reset viene negado
+   output [9:0]out// salida contador de 10 bits
+);
+
+reg [31:0]conteo=32'd0;
+
+
+
+always@(posedge clk, negedge reset)
+begin
+	if(!reset)
+	begin
+		conteo[31:0]<=32'd0;
+	end
+	else
+	begin
+		conteo[31:0]<=conteo[31:0]+1'b1;
+	end
+	
+end
+
+endmodule

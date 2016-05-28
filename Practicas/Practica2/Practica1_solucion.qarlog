@@ -1,0 +1,20 @@
+Quartus II Archive log --	D:/Santoto/Practicas/Practica2/Practica1_solucion.qarlog
+
+Archive:	D:/Santoto/Practicas/Practica2/Practica1_solucion.qar
+Date:		Thu May 26 10:50:50 2016
+Quartus II 64-Bit		15.0.0 Build 145 04/22/2015 SJ Web Edition
+
+	=========== Files Selected: ===========
+D:/Santoto/Practicas/Practica2/DE1_SOC.SDC
+D:/Santoto/Practicas/Practica2/DE1_SOC.jdi
+D:/Santoto/Practicas/Practica2/DE1_SOC.qpf
+D:/Santoto/Practicas/Practica2/DE1_SOC.qsf
+D:/Santoto/Practicas/Practica2/DE1_SOC.sof
+D:/Santoto/Practicas/Practica2/DE1_SOC_assignment_defaults.qdf
+D:/Santoto/Practicas/Practica2/de1_soc.v
+D:/Santoto/Practicas/Practica2/modules/contador.v
+D:/Santoto/Practicas/Practica2/modules/divisor_frecuencia.v
+	======= Total: 9 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

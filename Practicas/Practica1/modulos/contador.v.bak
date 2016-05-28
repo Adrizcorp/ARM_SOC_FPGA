@@ -1,0 +1,9 @@
+module contador(
+	input clk,// CLOCK debe 5 MHZ
+	input reset,// Reset viene negado
+   output [9:0]out// salida contador de 10 bits
+);
+
+
+
+endmodule

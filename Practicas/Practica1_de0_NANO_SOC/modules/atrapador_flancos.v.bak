@@ -1,0 +1,11 @@
+module atrapador_flancos(
+								input async_signal,
+								input clk,
+								output sync_signal
+								);
+
+
+								
+								
+								
+endmodule

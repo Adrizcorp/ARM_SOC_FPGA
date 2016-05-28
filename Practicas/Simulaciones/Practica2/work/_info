@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Santoto/Practicas/Simulaciones/Practica1
+vatrapador_flancos
+!s110 1464294402
+!i10b 1
+!s100 E^74J:oF8[ofUlJFnUzmO3
+IbEHkoXnSDHOZo7T;@21BQ1
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+Z1 dD:/Santoto/Practicas/Simulaciones/Practica2
+w1464292853
+8D:/Santoto/Practicas/Practica2/modules/atrapador_flancos.v
+FD:/Santoto/Practicas/Practica2/modules/atrapador_flancos.v
+L0 1
+Z2 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1464294402.620000
+!s107 D:/Santoto/Practicas/Practica2/modules/atrapador_flancos.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Santoto/Practicas/Practica2/modules/atrapador_flancos.v|
+!i113 1
+Z3 o-work work
+vdivisor_frecuencia
+!s110 1464290222
+!i10b 1
+!s100 X@1YPG9UNUBGE?Pf92ckV3
+I2a>0[i]ndWB;MN4NHkcU02
+R0
+R1
+w1463090071
+8D:/Santoto/Practicas/Practica2/modules/divisor_frecuencia.v
+FD:/Santoto/Practicas/Practica2/modules/divisor_frecuencia.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1464290222.136000
+!s107 D:/Santoto/Practicas/Practica2/modules/divisor_frecuencia.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Santoto/Practicas/Practica2/modules/divisor_frecuencia.v|
+!i113 1
+R3
+vFSM_ejemplo
+!s110 1464298986
+!i10b 1
+!s100 2FWREG0mzL_hG2SbbOYSl2
+I;mJNe8@Q<Jalh5Lj6K0UF2
+R0
+R1
+w1464298874
+8D:/Santoto/Practicas/Practica2/modules/FSM_ejemplo.v
+FD:/Santoto/Practicas/Practica2/modules/FSM_ejemplo.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1464298986.877000
+!s107 D:/Santoto/Practicas/Practica2/modules/FSM_ejemplo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Santoto/Practicas/Practica2/modules/FSM_ejemplo.v|
+!i113 1
+R3
+n@f@s@m_ejemplo
