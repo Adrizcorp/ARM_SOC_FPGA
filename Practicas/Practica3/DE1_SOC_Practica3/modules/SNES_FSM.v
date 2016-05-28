@@ -43,7 +43,7 @@ end
 
 always@(posedge clk_50)
 begin
-	case(state[5:0])
+	case(state[9:0])
 	IDLE  :begin
 				state[9:0]<=IDLE;
 				delay[9:0]<=TIME12u;
