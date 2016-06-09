@@ -1,0 +1,14 @@
+Explicacion en Verilog
+
+https://people.ece.cornell.edu/land/courses/ece5760/FinalProjects/f2009/jl589_jbw48/jl589_jbw48/
+
+
+
+// aqui esta la explicacion de crear en memoria RAM una imagen.
+https://sites.google.com/site/ece31289upb2015/practicas-de-clase/practica-4-sincronizadores/video-sync
+
+
+
+Para el Line buffer, entender el Line Buffer.
+https://sites.google.com/site/ece31289upb2015/practicas-de-clase/generate
+https://sites.google.com/site/ece31289upb2015/practicas-de-clase/image-processing
