@@ -1,0 +1,28 @@
+1) 
+
+Ya se tiene el modulo reconfigurable de estimacion de movimiento para cualquier resolucion.
+
+Se añadiran 11 modulos de 80x10 en overlapping
+
+
+
+2) Ahora se debe hacer la maquina de estados maestra, para guardar los tres frames de video 
+
+80x60x8 bits  1 frame completo==> Se guarda en escala de grises por luminosidad.
+
+
+pero como se va a realizar por overlapping, se necesitarian
+11x3= 33  Memorias cada una de 80x10x8 bits de capacidad
+
+80x10x8x11x3 = 211200 bits Frames para todos 
+
+
+3) adaptar el modulo maestro con cada frame o ram
+
+4) adaptar y unir a el HPS añadiendo los diferentes FiFos requeridos para esto.
+
+cada fifo de recepcion en el HPS deberia ser de masomenos 2400x32 bits, y son 11
+
+para la recepcion de la imagen debe hacerse tambien con FIFOS
+6 de 80x10x26 de profundidad
+

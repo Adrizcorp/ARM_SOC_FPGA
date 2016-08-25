@@ -1,0 +1,17 @@
+{C:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/ram_simulacion.v} {1 {vlog -work work -stats=none {C:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/ram_simulacion.v}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module ram_simulacion_ref
+-- Compiling module ram_simulacion_act
+
+Top level modules:
+	ram_simulacion_ref
+	ram_simulacion_act
+
+} {} {}} {C:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/simulacion_test_busqueda.v} {1 {vlog -work work -stats=none {C:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/simulacion_test_busqueda.v}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module simulacion_test_busqueda
+
+Top level modules:
+	simulacion_test_busqueda
+
+} {} {}}

@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/14.1
+vbusqueda
+Z0 !s110 1471825185
+!i10b 1
+!s100 6e9;U<h53`4z=FP]Qc6nV2
+IEH9^c;G4cJNcoh<oFedI>1
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dC:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim
+w1471825155
+8C:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/busqueda.v
+FC:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/busqueda.v
+L0 4
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1471825185.509000
+!s107 C:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/busqueda.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/busqueda.v|
+!i113 1
+Z4 o-work work
+vram_simulacion_act
+R0
+!i10b 1
+!s100 VC9nP`RLmTgN0IATUz8IF3
+I3=GPA<fjmbQ;=5oI5[X9b3
+R1
+R2
+Z5 w1471822120
+Z6 8C:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/ram_simulacion.v
+Z7 FC:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/ram_simulacion.v
+L0 29
+R3
+r1
+!s85 0
+31
+Z8 !s108 1471825185.671000
+Z9 !s107 C:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/ram_simulacion.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/ram_simulacion.v|
+!i113 1
+R4
+vram_simulacion_ref
+R0
+!i10b 1
+!s100 N^2W<PY[if`LUY>j79MVm3
+I<MU6WVULcRZPf]e@oQ=930
+R1
+R2
+R5
+R6
+R7
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
+vsimulacion_test_busqueda
+R0
+!i10b 1
+!s100 6D5oDmW:TQK<>6fP2eI023
+I>4UBo4g7gom7P^z9^FWE93
+R1
+R2
+w1471823315
+8C:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/simulacion_test_busqueda.v
+FC:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/simulacion_test_busqueda.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1471825185.881000
+!s107 C:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/simulacion_test_busqueda.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Rafael Alvarez/Desktop/PROYECTO_MAESTRIA/modelsim/simulacion_test_busqueda.v|
+!i113 1
+R4
