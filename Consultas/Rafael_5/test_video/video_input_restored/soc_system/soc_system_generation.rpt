@@ -1,0 +1,318 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "C:\Users\Rafael Alvarez\Desktop\24ago\test_video\video_input_restored\soc_system.qsys" --block-symbol-file --output-directory="C:\Users\Rafael Alvarez\Desktop\24ago\test_video\video_input_restored\soc_system" --family="Cyclone V" --part=5CSEMA4U23C6
+Progress: Loading video_input_restored/soc_system.qsys
+Progress: Reading input file
+Progress: Adding audio_output [altera_avalon_fifo 15.0]
+Progress: Parameterizing module audio_output
+Progress: Adding button_pio [altera_avalon_pio 15.0]
+Progress: Parameterizing module button_pio
+Progress: Adding clk_0 [clock_source 15.0]
+Progress: Parameterizing module clk_0
+Progress: Adding clk_1 [clock_source 15.0]
+Progress: Parameterizing module clk_1
+Progress: Adding dipsw_pio [altera_avalon_pio 15.0]
+Progress: Parameterizing module dipsw_pio
+Progress: Adding div_freq [altera_avalon_pio 15.0]
+Progress: Parameterizing module div_freq
+Progress: Adding fpga_only_master [altera_jtag_avalon_master 15.0]
+Progress: Parameterizing module fpga_only_master
+Progress: Adding hps_0 [altera_hps 15.0]
+Progress: Parameterizing module hps_0
+Progress: Adding hps_only_master [altera_jtag_avalon_master 15.0]
+Progress: Parameterizing module hps_only_master
+Progress: Adding intr_capturer_0 [intr_capturer 100.99.98.97]
+Progress: Parameterizing module intr_capturer_0
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 15.0]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led_pio [altera_avalon_pio 15.0]
+Progress: Parameterizing module led_pio
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 15.0]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding sysid_qsys [altera_avalon_sysid_qsys 15.0]
+Progress: Parameterizing module sysid_qsys
+Progress: Adding video_input [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input
+Progress: Adding video_input_0 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_0
+Progress: Adding video_input_1 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_1
+Progress: Adding video_input_2 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_2
+Progress: Adding video_input_3 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_3
+Progress: Adding video_input_4 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_4
+Progress: Adding video_input_5 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_5
+Progress: Adding video_input_6 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_6
+Progress: Adding video_input_7 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_7
+Progress: Adding video_input_8 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_8
+Progress: Adding video_input_9 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_9
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: soc_system.button_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: soc_system.dipsw_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: soc_system.hps_0: HPS Main PLL counter settings: n = 0  m = 73
+Info: soc_system.hps_0: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: soc_system.hps_0: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: soc_system.hps_0: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "C:\Users\Rafael Alvarez\Desktop\24ago\test_video\video_input_restored\soc_system.qsys" --synthesis=VERILOG --output-directory="C:\Users\Rafael Alvarez\Desktop\24ago\test_video\video_input_restored\soc_system\synthesis" --family="Cyclone V" --part=5CSEMA4U23C6
+Progress: Loading video_input_restored/soc_system.qsys
+Progress: Reading input file
+Progress: Adding audio_output [altera_avalon_fifo 15.0]
+Progress: Parameterizing module audio_output
+Progress: Adding button_pio [altera_avalon_pio 15.0]
+Progress: Parameterizing module button_pio
+Progress: Adding clk_0 [clock_source 15.0]
+Progress: Parameterizing module clk_0
+Progress: Adding clk_1 [clock_source 15.0]
+Progress: Parameterizing module clk_1
+Progress: Adding dipsw_pio [altera_avalon_pio 15.0]
+Progress: Parameterizing module dipsw_pio
+Progress: Adding div_freq [altera_avalon_pio 15.0]
+Progress: Parameterizing module div_freq
+Progress: Adding fpga_only_master [altera_jtag_avalon_master 15.0]
+Progress: Parameterizing module fpga_only_master
+Progress: Adding hps_0 [altera_hps 15.0]
+Progress: Parameterizing module hps_0
+Progress: Adding hps_only_master [altera_jtag_avalon_master 15.0]
+Progress: Parameterizing module hps_only_master
+Progress: Adding intr_capturer_0 [intr_capturer 100.99.98.97]
+Progress: Parameterizing module intr_capturer_0
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 15.0]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led_pio [altera_avalon_pio 15.0]
+Progress: Parameterizing module led_pio
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 15.0]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding sysid_qsys [altera_avalon_sysid_qsys 15.0]
+Progress: Parameterizing module sysid_qsys
+Progress: Adding video_input [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input
+Progress: Adding video_input_0 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_0
+Progress: Adding video_input_1 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_1
+Progress: Adding video_input_2 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_2
+Progress: Adding video_input_3 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_3
+Progress: Adding video_input_4 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_4
+Progress: Adding video_input_5 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_5
+Progress: Adding video_input_6 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_6
+Progress: Adding video_input_7 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_7
+Progress: Adding video_input_8 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_8
+Progress: Adding video_input_9 [altera_avalon_fifo 15.0]
+Progress: Parameterizing module video_input_9
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: soc_system.button_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: soc_system.dipsw_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: soc_system.hps_0: HPS Main PLL counter settings: n = 0  m = 73
+Info: soc_system.hps_0: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: soc_system.hps_0: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: soc_system.hps_0: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: soc_system: Generating soc_system "soc_system" for QUARTUS_SYNTH
+Info: Inserting clock-crossing logic between cmd_demux.src0 and cmd_mux.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src1 and cmd_mux_001.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src2 and cmd_mux_002.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src3 and cmd_mux_003.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src4 and cmd_mux_004.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src5 and cmd_mux_005.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src6 and cmd_mux_006.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src7 and cmd_mux_007.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src8 and cmd_mux_008.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src9 and cmd_mux_009.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src10 and cmd_mux_010.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src11 and cmd_mux_011.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src12 and cmd_mux_012.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src13 and cmd_mux_013.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src14 and cmd_mux_014.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src15 and cmd_mux_015.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src16 and cmd_mux_016.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src17 and cmd_mux_017.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src18 and cmd_mux_018.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src19 and cmd_mux_019.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src20 and cmd_mux_020.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src21 and cmd_mux_021.sink0
+Info: Inserting clock-crossing logic between cmd_demux_001.src0 and cmd_mux.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src1 and cmd_mux_001.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src2 and cmd_mux_002.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src3 and cmd_mux_003.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src4 and cmd_mux_004.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src5 and cmd_mux_005.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src6 and cmd_mux_006.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src7 and cmd_mux_007.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src8 and cmd_mux_008.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src9 and cmd_mux_009.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src10 and cmd_mux_010.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src11 and cmd_mux_011.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src12 and cmd_mux_012.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src13 and cmd_mux_013.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src14 and cmd_mux_014.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src15 and cmd_mux_015.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src16 and cmd_mux_016.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src17 and cmd_mux_017.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src18 and cmd_mux_018.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src19 and cmd_mux_019.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src20 and cmd_mux_020.sink1
+Info: Inserting clock-crossing logic between cmd_demux_001.src21 and cmd_mux_021.sink1
+Info: Inserting clock-crossing logic between rsp_demux.src0 and rsp_mux.sink0
+Info: Inserting clock-crossing logic between rsp_demux.src1 and rsp_mux_001.sink0
+Info: Inserting clock-crossing logic between rsp_demux_001.src0 and rsp_mux.sink1
+Info: Inserting clock-crossing logic between rsp_demux_001.src1 and rsp_mux_001.sink1
+Info: Inserting clock-crossing logic between rsp_demux_002.src0 and rsp_mux.sink2
+Info: Inserting clock-crossing logic between rsp_demux_002.src1 and rsp_mux_001.sink2
+Info: Inserting clock-crossing logic between rsp_demux_003.src0 and rsp_mux.sink3
+Info: Inserting clock-crossing logic between rsp_demux_003.src1 and rsp_mux_001.sink3
+Info: Inserting clock-crossing logic between rsp_demux_004.src0 and rsp_mux.sink4
+Info: Inserting clock-crossing logic between rsp_demux_004.src1 and rsp_mux_001.sink4
+Info: Inserting clock-crossing logic between rsp_demux_005.src0 and rsp_mux.sink5
+Info: Inserting clock-crossing logic between rsp_demux_005.src1 and rsp_mux_001.sink5
+Info: Inserting clock-crossing logic between rsp_demux_006.src0 and rsp_mux.sink6
+Info: Inserting clock-crossing logic between rsp_demux_006.src1 and rsp_mux_001.sink6
+Info: Inserting clock-crossing logic between rsp_demux_007.src0 and rsp_mux.sink7
+Info: Inserting clock-crossing logic between rsp_demux_007.src1 and rsp_mux_001.sink7
+Info: Inserting clock-crossing logic between rsp_demux_008.src0 and rsp_mux.sink8
+Info: Inserting clock-crossing logic between rsp_demux_008.src1 and rsp_mux_001.sink8
+Info: Inserting clock-crossing logic between rsp_demux_009.src0 and rsp_mux.sink9
+Info: Inserting clock-crossing logic between rsp_demux_009.src1 and rsp_mux_001.sink9
+Info: Inserting clock-crossing logic between rsp_demux_010.src0 and rsp_mux.sink10
+Info: Inserting clock-crossing logic between rsp_demux_010.src1 and rsp_mux_001.sink10
+Info: Inserting clock-crossing logic between rsp_demux_011.src0 and rsp_mux.sink11
+Info: Inserting clock-crossing logic between rsp_demux_011.src1 and rsp_mux_001.sink11
+Info: Inserting clock-crossing logic between rsp_demux_012.src0 and rsp_mux.sink12
+Info: Inserting clock-crossing logic between rsp_demux_012.src1 and rsp_mux_001.sink12
+Info: Inserting clock-crossing logic between rsp_demux_013.src0 and rsp_mux.sink13
+Info: Inserting clock-crossing logic between rsp_demux_013.src1 and rsp_mux_001.sink13
+Info: Inserting clock-crossing logic between rsp_demux_014.src0 and rsp_mux.sink14
+Info: Inserting clock-crossing logic between rsp_demux_014.src1 and rsp_mux_001.sink14
+Info: Inserting clock-crossing logic between rsp_demux_015.src0 and rsp_mux.sink15
+Info: Inserting clock-crossing logic between rsp_demux_015.src1 and rsp_mux_001.sink15
+Info: Inserting clock-crossing logic between rsp_demux_016.src0 and rsp_mux.sink16
+Info: Inserting clock-crossing logic between rsp_demux_016.src1 and rsp_mux_001.sink16
+Info: Inserting clock-crossing logic between rsp_demux_017.src0 and rsp_mux.sink17
+Info: Inserting clock-crossing logic between rsp_demux_017.src1 and rsp_mux_001.sink17
+Info: Inserting clock-crossing logic between rsp_demux_018.src0 and rsp_mux.sink18
+Info: Inserting clock-crossing logic between rsp_demux_018.src1 and rsp_mux_001.sink18
+Info: Inserting clock-crossing logic between rsp_demux_019.src0 and rsp_mux.sink19
+Info: Inserting clock-crossing logic between rsp_demux_019.src1 and rsp_mux_001.sink19
+Info: Inserting clock-crossing logic between rsp_demux_020.src0 and rsp_mux.sink20
+Info: Inserting clock-crossing logic between rsp_demux_020.src1 and rsp_mux_001.sink20
+Info: Inserting clock-crossing logic between rsp_demux_021.src0 and rsp_mux.sink21
+Info: Inserting clock-crossing logic between rsp_demux_021.src1 and rsp_mux_001.sink21
+Warning: hps_0.f2h_irq0: Cannot connect clock for irq_mapper.sender
+Warning: hps_0.f2h_irq0: Cannot connect reset for irq_mapper.sender
+Warning: hps_0.f2h_irq1: Cannot connect clock for irq_mapper_001.sender
+Warning: hps_0.f2h_irq1: Cannot connect reset for irq_mapper_001.sender
+Info: button_pio: Starting RTL generation for module 'soc_system_button_pio'
+Info: button_pio:   Generation command is [exec C:/altera/15.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/15.0/quartus/bin64/perl/lib -I C:/altera/15.0/quartus/sopc_builder/bin/europa -I C:/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/15.0/quartus/sopc_builder/bin -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=soc_system_button_pio --dir=C:/Users/RAFAEL~1/AppData/Local/Temp/alt7037_8187438162289839712.dir/0001_button_pio_gen/ --quartus_dir=C:/altera/15.0/quartus --verilog --config=C:/Users/RAFAEL~1/AppData/Local/Temp/alt7037_8187438162289839712.dir/0001_button_pio_gen//soc_system_button_pio_component_configuration.pl  --do_build_sim=0  ]
+Info: button_pio: Done RTL generation for module 'soc_system_button_pio'
+Info: button_pio: "soc_system" instantiated altera_avalon_pio "button_pio"
+Info: dipsw_pio: Starting RTL generation for module 'soc_system_dipsw_pio'
+Info: dipsw_pio:   Generation command is [exec C:/altera/15.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/15.0/quartus/bin64/perl/lib -I C:/altera/15.0/quartus/sopc_builder/bin/europa -I C:/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/15.0/quartus/sopc_builder/bin -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=soc_system_dipsw_pio --dir=C:/Users/RAFAEL~1/AppData/Local/Temp/alt7037_8187438162289839712.dir/0002_dipsw_pio_gen/ --quartus_dir=C:/altera/15.0/quartus --verilog --config=C:/Users/RAFAEL~1/AppData/Local/Temp/alt7037_8187438162289839712.dir/0002_dipsw_pio_gen//soc_system_dipsw_pio_component_configuration.pl  --do_build_sim=0  ]
+Info: dipsw_pio: Done RTL generation for module 'soc_system_dipsw_pio'
+Info: dipsw_pio: "soc_system" instantiated altera_avalon_pio "dipsw_pio"
+Info: div_freq: Starting RTL generation for module 'soc_system_div_freq'
+Info: div_freq:   Generation command is [exec C:/altera/15.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/15.0/quartus/bin64/perl/lib -I C:/altera/15.0/quartus/sopc_builder/bin/europa -I C:/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/15.0/quartus/sopc_builder/bin -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=soc_system_div_freq --dir=C:/Users/RAFAEL~1/AppData/Local/Temp/alt7037_8187438162289839712.dir/0003_div_freq_gen/ --quartus_dir=C:/altera/15.0/quartus --verilog --config=C:/Users/RAFAEL~1/AppData/Local/Temp/alt7037_8187438162289839712.dir/0003_div_freq_gen//soc_system_div_freq_component_configuration.pl  --do_build_sim=0  ]
+Info: div_freq: Done RTL generation for module 'soc_system_div_freq'
+Info: div_freq: "soc_system" instantiated altera_avalon_pio "div_freq"
+Info: hps_0: "Running  for module: hps_0"
+Info: hps_0: HPS Main PLL counter settings: n = 0  m = 73
+Info: hps_0: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: hps_0: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: hps_0: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: hps_0: "soc_system" instantiated altera_hps "hps_0"
+Info: led_pio: Starting RTL generation for module 'soc_system_led_pio'
+Info: led_pio:   Generation command is [exec C:/altera/15.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/15.0/quartus/bin64/perl/lib -I C:/altera/15.0/quartus/sopc_builder/bin/europa -I C:/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/15.0/quartus/sopc_builder/bin -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=soc_system_led_pio --dir=C:/Users/RAFAEL~1/AppData/Local/Temp/alt7037_8187438162289839712.dir/0004_led_pio_gen/ --quartus_dir=C:/altera/15.0/quartus --verilog --config=C:/Users/RAFAEL~1/AppData/Local/Temp/alt7037_8187438162289839712.dir/0004_led_pio_gen//soc_system_led_pio_component_configuration.pl  --do_build_sim=0  ]
+Info: led_pio: Done RTL generation for module 'soc_system_led_pio'
+Info: led_pio: "soc_system" instantiated altera_avalon_pio "led_pio"
+Info: video_input: Starting RTL generation for module 'soc_system_video_input'
+Info: video_input:   Generation command is [exec C:/altera/15.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/15.0/quartus/bin64/perl/lib -I C:/altera/15.0/quartus/sopc_builder/bin/europa -I C:/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/15.0/quartus/sopc_builder/bin -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_fifo -- C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_fifo/generate_rtl.pl --name=soc_system_video_input --dir=C:/Users/RAFAEL~1/AppData/Local/Temp/alt7037_8187438162289839712.dir/0005_video_input_gen/ --quartus_dir=C:/altera/15.0/quartus --verilog --config=C:/Users/RAFAEL~1/AppData/Local/Temp/alt7037_8187438162289839712.dir/0005_video_input_gen//soc_system_video_input_component_configuration.pl  --do_build_sim=0  ]
+Info: video_input: Done RTL generation for module 'soc_system_video_input'
+Info: video_input: "soc_system" instantiated altera_avalon_fifo "video_input"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_012: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_013: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_014: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_015: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_016: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_017: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_018: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_019: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_020: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_021: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "soc_system" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_1: "soc_system" instantiated altera_mm_interconnect "mm_interconnect_1"
+Info: irq_mapper: "soc_system" instantiated altera_irq_mapper "irq_mapper"
+Info: irq_mapper_001: "soc_system" instantiated altera_irq_mapper "irq_mapper_001"
+Info: rst_controller: "soc_system" instantiated altera_reset_controller "rst_controller"
+Info: fpga_interfaces: "hps_0" instantiated altera_interface_generator "fpga_interfaces"
+Info: hps_io: "hps_0" instantiated altera_hps_io "hps_io"
+Info: video_input_out_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "video_input_out_translator"
+Info: hps_0_h2f_axi_master_agent: "mm_interconnect_0" instantiated altera_merlin_axi_master_ni "hps_0_h2f_axi_master_agent"
+Info: video_input_out_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "video_input_out_agent"
+Info: video_input_out_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "video_input_out_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: hps_0_h2f_axi_master_wr_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "hps_0_h2f_axi_master_wr_limiter"
+Info: Reusing file C:/Users/Rafael Alvarez/Desktop/24ago/test_video/video_input_restored/soc_system/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: video_input_out_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "video_input_out_burst_adapter"
+Info: Reusing file C:/Users/Rafael Alvarez/Desktop/24ago/test_video/video_input_restored/soc_system/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/Rafael Alvarez/Desktop/24ago/test_video/video_input_restored/soc_system/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/Rafael Alvarez/Desktop/24ago/test_video/video_input_restored/soc_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: video_input_out_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "video_input_out_rsp_width_adapter"
+Info: Reusing file C:/Users/Rafael Alvarez/Desktop/24ago/test_video/video_input_restored/soc_system/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/Rafael Alvarez/Desktop/24ago/test_video/video_input_restored/soc_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: Reusing file C:/Users/Rafael Alvarez/Desktop/24ago/test_video/video_input_restored/soc_system/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: router: "mm_interconnect_1" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_1" instantiated altera_merlin_router "router_002"
+Info: cmd_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: Reusing file C:/Users/Rafael Alvarez/Desktop/24ago/test_video/video_input_restored/soc_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/Rafael Alvarez/Desktop/24ago/test_video/video_input_restored/soc_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: border: "hps_io" instantiated altera_interface_generator "border"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: soc_system: Done "soc_system" with 37 modules, 95 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

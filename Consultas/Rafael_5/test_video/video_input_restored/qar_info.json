@@ -1,0 +1,7 @@
+{
+	"common_dir" : "D:/FPGAs/DE0nanoSOC/HPS_CONTROL_FPGA_LED/",
+	"acds_version" : "Version 15.0.0",
+	"platform" : "windows",
+	"os" : "Windows 7",
+	"qpf" : "HPS_CONTROL_FPGA_LED.qpf"
+}

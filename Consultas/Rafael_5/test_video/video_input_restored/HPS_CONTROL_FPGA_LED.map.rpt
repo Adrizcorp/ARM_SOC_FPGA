@@ -1,0 +1,364 @@
+Analysis & Synthesis report for HPS_CONTROL_FPGA_LED
+Tue Sep 06 15:43:05 2016
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Messages
+  6. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++--------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                             ;
++-----------------------------+--------------------------------------------+
+; Analysis & Synthesis Status ; Failed - Tue Sep 06 15:43:05 2016          ;
+; Quartus II 64-Bit Version   ; 15.0.0 Build 145 04/22/2015 SJ Web Edition ;
+; Revision Name               ; HPS_CONTROL_FPGA_LED                       ;
+; Top-level Entity Name       ; HPS_CONTROL_FPGA_LED                       ;
+; Family                      ; Cyclone V                                  ;
+; Logic utilization (in ALMs) ; N/A until Partition Merge                  ;
+; Total registers             ; N/A until Partition Merge                  ;
+; Total pins                  ; N/A until Partition Merge                  ;
+; Total virtual pins          ; N/A until Partition Merge                  ;
+; Total block memory bits     ; N/A until Partition Merge                  ;
+; Total PLLs                  ; N/A until Partition Merge                  ;
+; Total DLLs                  ; N/A until Partition Merge                  ;
++-----------------------------+--------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                                 ;
++---------------------------------------------------------------------------------+----------------------+----------------------+
+; Option                                                                          ; Setting              ; Default Value        ;
++---------------------------------------------------------------------------------+----------------------+----------------------+
+; Device                                                                          ; 5CSEMA4U23C6         ;                      ;
+; Top-level entity name                                                           ; HPS_CONTROL_FPGA_LED ; HPS_CONTROL_FPGA_LED ;
+; Family name                                                                     ; Cyclone V            ; Cyclone IV GX        ;
+; Use smart compilation                                                           ; Off                  ; Off                  ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                   ; On                   ;
+; Enable compact report table                                                     ; Off                  ; Off                  ;
+; Restructure Multiplexers                                                        ; Auto                 ; Auto                 ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                  ; Off                  ;
+; Create Debugging Nodes for IP Cores                                             ; Off                  ; Off                  ;
+; Preserve fewer node names                                                       ; On                   ; On                   ;
+; Disable OpenCore Plus hardware evaluation                                       ; Off                  ; Off                  ;
+; Verilog Version                                                                 ; Verilog_2001         ; Verilog_2001         ;
+; VHDL Version                                                                    ; VHDL_1993            ; VHDL_1993            ;
+; State Machine Processing                                                        ; Auto                 ; Auto                 ;
+; Safe State Machine                                                              ; Off                  ; Off                  ;
+; Extract Verilog State Machines                                                  ; On                   ; On                   ;
+; Extract VHDL State Machines                                                     ; On                   ; On                   ;
+; Ignore Verilog initial constructs                                               ; Off                  ; Off                  ;
+; Iteration limit for constant Verilog loops                                      ; 5000                 ; 5000                 ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                  ; 250                  ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                   ; On                   ;
+; Infer RAMs from Raw Logic                                                       ; On                   ; On                   ;
+; Parallel Synthesis                                                              ; On                   ; On                   ;
+; DSP Block Balancing                                                             ; Auto                 ; Auto                 ;
+; NOT Gate Push-Back                                                              ; On                   ; On                   ;
+; Power-Up Don't Care                                                             ; On                   ; On                   ;
+; Remove Redundant Logic Cells                                                    ; Off                  ; Off                  ;
+; Remove Duplicate Registers                                                      ; On                   ; On                   ;
+; Ignore CARRY Buffers                                                            ; Off                  ; Off                  ;
+; Ignore CASCADE Buffers                                                          ; Off                  ; Off                  ;
+; Ignore GLOBAL Buffers                                                           ; Off                  ; Off                  ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                  ; Off                  ;
+; Ignore LCELL Buffers                                                            ; Off                  ; Off                  ;
+; Ignore SOFT Buffers                                                             ; On                   ; On                   ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                  ; Off                  ;
+; Optimization Technique                                                          ; Balanced             ; Balanced             ;
+; Carry Chain Length                                                              ; 70                   ; 70                   ;
+; Auto Carry Chains                                                               ; On                   ; On                   ;
+; Auto Open-Drain Pins                                                            ; On                   ; On                   ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                  ; Off                  ;
+; Auto ROM Replacement                                                            ; On                   ; On                   ;
+; Auto RAM Replacement                                                            ; On                   ; On                   ;
+; Auto DSP Block Replacement                                                      ; On                   ; On                   ;
+; Auto Shift Register Replacement                                                 ; Auto                 ; Auto                 ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto                 ; Auto                 ;
+; Auto Clock Enable Replacement                                                   ; On                   ; On                   ;
+; Strict RAM Replacement                                                          ; Off                  ; Off                  ;
+; Allow Synchronous Control Signals                                               ; On                   ; On                   ;
+; Force Use of Synchronous Clear Signals                                          ; Off                  ; Off                  ;
+; Auto Resource Sharing                                                           ; Off                  ; Off                  ;
+; Allow Any RAM Size For Recognition                                              ; Off                  ; Off                  ;
+; Allow Any ROM Size For Recognition                                              ; Off                  ; Off                  ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                  ; Off                  ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                   ; On                   ;
+; Ignore translate_off and synthesis_off directives                               ; Off                  ; Off                  ;
+; Timing-Driven Synthesis                                                         ; On                   ; On                   ;
+; Report Parameter Settings                                                       ; On                   ; On                   ;
+; Report Source Assignments                                                       ; On                   ; On                   ;
+; Report Connectivity Checks                                                      ; On                   ; On                   ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                  ; Off                  ;
+; Synchronization Register Chain Length                                           ; 3                    ; 3                    ;
+; PowerPlay Power Optimization During Synthesis                                   ; Normal compilation   ; Normal compilation   ;
+; HDL message level                                                               ; Level2               ; Level2               ;
+; Suppress Register Optimization Related Messages                                 ; Off                  ; Off                  ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000                 ; 5000                 ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000                 ; 5000                 ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                  ; 100                  ;
+; Clock MUX Protection                                                            ; On                   ; On                   ;
+; Auto Gated Clock Conversion                                                     ; Off                  ; Off                  ;
+; Block Design Naming                                                             ; Auto                 ; Auto                 ;
+; SDC constraint protection                                                       ; Off                  ; Off                  ;
+; Synthesis Effort                                                                ; Auto                 ; Auto                 ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                   ; On                   ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                  ; Off                  ;
+; Analysis & Synthesis Message Level                                              ; Medium               ; Medium               ;
+; Disable Register Merging Across Hierarchies                                     ; Auto                 ; Auto                 ;
+; Resource Aware Inference For Block RAM                                          ; On                   ; On                   ;
+; Synthesis Seed                                                                  ; 1                    ; 1                    ;
+; Automatic Parallel Synthesis                                                    ; On                   ; On                   ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                  ; Off                  ;
++---------------------------------------------------------------------------------+----------------------+----------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
+    Info: Processing started: Tue Sep 06 15:42:09 2016
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off HPS_CONTROL_FPGA_LED -c HPS_CONTROL_FPGA_LED
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Warning (10463): Verilog HDL Declaration warning at busqueda.v(84): "ref" is SystemVerilog-2005 keyword
+Info (12021): Found 1 design units, including 1 entities, in source file modules/busqueda.v
+    Info (12023): Found entity 1: busqueda
+Info (12021): Found 1 design units, including 1 entities, in source file modules/simulacion_test_busqueda.v
+    Info (12023): Found entity 1: simulacion_test_busqueda
+Info (12021): Found 1 design units, including 1 entities, in source file pll_25juego.v
+    Info (12023): Found entity 1: pll_25Juego
+Info (12021): Found 1 design units, including 1 entities, in source file pll_25juego/pll_25juego_0002.v
+    Info (12023): Found entity 1: pll_25Juego_0002
+Info (12021): Found 1 design units, including 1 entities, in source file modules/async_trap_and_reset.v
+    Info (12023): Found entity 1: async_trap_and_reset
+Info (12021): Found 1 design units, including 1 entities, in source file v/vga_ctrl.v
+    Info (12023): Found entity 1: VGA_Ctrl
+Info (12021): Found 1 design units, including 1 entities, in source file imagen.v
+    Info (12023): Found entity 1: imagen
+Info (12021): Found 1 design units, including 1 entities, in source file modules/syncro.v
+    Info (12023): Found entity 1: syncro
+Info (12021): Found 1 design units, including 1 entities, in source file modules/div_freq.v
+    Info (12023): Found entity 1: div_freq
+Warning (10274): Verilog HDL macro warning at dac_nano.v(5): overriding existing definition for macro "MSBI", which was defined in "modules/busqueda.v", line 3
+Info (12021): Found 1 design units, including 1 entities, in source file modules/dac_nano.v
+    Info (12023): Found entity 1: dac_nano
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/soc_system.v
+    Info (12023): Found entity 1: soc_system
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_reset_controller.v
+    Info (12023): Found entity 1: altera_reset_controller
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_reset_synchronizer.v
+    Info (12023): Found entity 1: altera_reset_synchronizer
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_irq_mapper_001.sv
+    Info (12023): Found entity 1: soc_system_irq_mapper_001
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_irq_mapper.sv
+    Info (12023): Found entity 1: soc_system_irq_mapper
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_1.v
+    Info (12023): Found entity 1: soc_system_mm_interconnect_1
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_0_avalon_st_adapter.v
+    Info (12023): Found entity 1: soc_system_mm_interconnect_0_avalon_st_adapter
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+    Info (12023): Found entity 1: soc_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+Info (12021): Found 2 design units, including 2 entities, in source file soc_system/synthesis/submodules/altera_merlin_arbitrator.sv
+    Info (12023): Found entity 1: altera_merlin_arbitrator
+    Info (12023): Found entity 2: altera_merlin_arb_adder
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_1_rsp_mux.sv
+    Info (12023): Found entity 1: soc_system_mm_interconnect_1_rsp_mux
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_1_rsp_demux.sv
+    Info (12023): Found entity 1: soc_system_mm_interconnect_1_rsp_demux
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_1_cmd_mux.sv
+    Info (12023): Found entity 1: soc_system_mm_interconnect_1_cmd_mux
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_1_cmd_demux.sv
+    Info (12023): Found entity 1: soc_system_mm_interconnect_1_cmd_demux
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_merlin_burst_adapter.sv
+    Info (12023): Found entity 1: altera_merlin_burst_adapter
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv
+    Info (12023): Found entity 1: altera_merlin_burst_adapter_uncompressed_only
+Info (12021): Found 5 design units, including 5 entities, in source file soc_system/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv
+    Info (12023): Found entity 1: altera_merlin_burst_adapter_burstwrap_increment
+    Info (12023): Found entity 2: altera_merlin_burst_adapter_adder
+    Info (12023): Found entity 3: altera_merlin_burst_adapter_subtractor
+    Info (12023): Found entity 4: altera_merlin_burst_adapter_min
+    Info (12023): Found entity 5: altera_merlin_burst_adapter_13_1
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_merlin_burst_adapter_new.sv
+    Info (12023): Found entity 1: altera_merlin_burst_adapter_new
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_incr_burst_converter.sv
+    Info (12023): Found entity 1: altera_incr_burst_converter
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_wrap_burst_converter.sv
+    Info (12023): Found entity 1: altera_wrap_burst_converter
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_default_burst_converter.sv
+    Info (12023): Found entity 1: altera_default_burst_converter
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_merlin_address_alignment.sv
+    Info (12023): Found entity 1: altera_merlin_address_alignment
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_avalon_st_pipeline_stage.sv
+    Info (12023): Found entity 1: altera_avalon_st_pipeline_stage
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_avalon_st_pipeline_base.v
+    Info (12023): Found entity 1: altera_avalon_st_pipeline_base
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_merlin_traffic_limiter.sv
+    Info (12023): Found entity 1: altera_merlin_traffic_limiter
+Info (12021): Found 2 design units, including 2 entities, in source file soc_system/synthesis/submodules/altera_merlin_reorder_memory.sv
+    Info (12023): Found entity 1: altera_merlin_reorder_memory
+    Info (12023): Found entity 2: memory_pointer_controller
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_avalon_sc_fifo.v
+    Info (12023): Found entity 1: altera_avalon_sc_fifo
+Info (12021): Found 2 design units, including 2 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_1_router_002.sv
+    Info (12023): Found entity 1: soc_system_mm_interconnect_1_router_002_default_decode
+    Info (12023): Found entity 2: soc_system_mm_interconnect_1_router_002
+Info (12021): Found 2 design units, including 2 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_1_router.sv
+    Info (12023): Found entity 1: soc_system_mm_interconnect_1_router_default_decode
+    Info (12023): Found entity 2: soc_system_mm_interconnect_1_router
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_merlin_slave_agent.sv
+    Info (12023): Found entity 1: altera_merlin_slave_agent
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+    Info (12023): Found entity 1: altera_merlin_burst_uncompressor
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_merlin_axi_master_ni.sv
+    Info (12023): Found entity 1: altera_merlin_axi_master_ni
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_merlin_slave_translator.sv
+    Info (12023): Found entity 1: altera_merlin_slave_translator
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_0.v
+    Info (12023): Found entity 1: soc_system_mm_interconnect_0
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+    Info (12023): Found entity 1: altera_avalon_st_handshake_clock_crosser
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_avalon_st_clock_crosser.v
+    Info (12023): Found entity 1: altera_avalon_st_clock_crosser
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_merlin_width_adapter.sv
+    Info (12023): Found entity 1: altera_merlin_width_adapter
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_0_rsp_mux.sv
+    Info (12023): Found entity 1: soc_system_mm_interconnect_0_rsp_mux
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_0_rsp_demux.sv
+    Info (12023): Found entity 1: soc_system_mm_interconnect_0_rsp_demux
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_0_cmd_mux.sv
+    Info (12023): Found entity 1: soc_system_mm_interconnect_0_cmd_mux
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_0_cmd_demux.sv
+    Info (12023): Found entity 1: soc_system_mm_interconnect_0_cmd_demux
+Info (12021): Found 2 design units, including 2 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_0_router_002.sv
+    Info (12023): Found entity 1: soc_system_mm_interconnect_0_router_002_default_decode
+    Info (12023): Found entity 2: soc_system_mm_interconnect_0_router_002
+Info (12021): Found 2 design units, including 2 entities, in source file soc_system/synthesis/submodules/soc_system_mm_interconnect_0_router.sv
+    Info (12023): Found entity 1: soc_system_mm_interconnect_0_router_default_decode
+    Info (12023): Found entity 2: soc_system_mm_interconnect_0_router
+Info (12021): Found 3 design units, including 3 entities, in source file soc_system/synthesis/submodules/soc_system_video_input.v
+    Info (12023): Found entity 1: soc_system_video_input_dual_clock_fifo
+    Info (12023): Found entity 2: soc_system_video_input_dcfifo_with_controls
+    Info (12023): Found entity 3: soc_system_video_input
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_led_pio.v
+    Info (12023): Found entity 1: soc_system_led_pio
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_hps_0.v
+    Info (12023): Found entity 1: soc_system_hps_0
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_hps_0_hps_io.v
+    Info (12023): Found entity 1: soc_system_hps_0_hps_io
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/hps_sdram.v
+    Info (12023): Found entity 1: hps_sdram
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altdq_dqs2_acv_connect_to_hard_phy_cyclonev.sv
+    Info (12023): Found entity 1: altdq_dqs2_acv_connect_to_hard_phy_cyclonev
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_mem_if_dll_cyclonev.sv
+    Info (12023): Found entity 1: altera_mem_if_dll_cyclonev
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_mem_if_hard_memory_controller_top_cyclonev.sv
+    Info (12023): Found entity 1: altera_mem_if_hard_memory_controller_top_cyclonev
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_mem_if_hhp_qseq_synth_top.v
+    Info (12023): Found entity 1: altera_mem_if_hhp_qseq_synth_top
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/altera_mem_if_oct_cyclonev.sv
+    Info (12023): Found entity 1: altera_mem_if_oct_cyclonev
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/hps_sdram_p0.sv
+    Info (12023): Found entity 1: hps_sdram_p0
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/hps_sdram_p0_acv_hard_addr_cmd_pads.v
+    Info (12023): Found entity 1: hps_sdram_p0_acv_hard_addr_cmd_pads
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/hps_sdram_p0_acv_hard_io_pads.v
+    Info (12023): Found entity 1: hps_sdram_p0_acv_hard_io_pads
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/hps_sdram_p0_acv_hard_memphy.v
+    Info (12023): Found entity 1: hps_sdram_p0_acv_hard_memphy
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/hps_sdram_p0_acv_ldc.v
+    Info (12023): Found entity 1: hps_sdram_p0_acv_ldc
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/hps_sdram_p0_altdqdqs.v
+    Info (12023): Found entity 1: hps_sdram_p0_altdqdqs
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/hps_sdram_p0_clock_pair_generator.v
+    Info (12023): Found entity 1: hps_sdram_p0_clock_pair_generator
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/hps_sdram_p0_generic_ddio.v
+    Info (12023): Found entity 1: hps_sdram_p0_generic_ddio
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/hps_sdram_p0_iss_probe.v
+    Info (12023): Found entity 1: hps_sdram_p0_iss_probe
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/hps_sdram_p0_phy_csr.sv
+    Info (12023): Found entity 1: hps_sdram_p0_phy_csr
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/hps_sdram_p0_reset.v
+    Info (12023): Found entity 1: hps_sdram_p0_reset
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/hps_sdram_p0_reset_sync.v
+    Info (12023): Found entity 1: hps_sdram_p0_reset_sync
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/hps_sdram_pll.sv
+    Info (12023): Found entity 1: hps_sdram_pll
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_hps_0_hps_io_border.sv
+    Info (12023): Found entity 1: soc_system_hps_0_hps_io_border
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_hps_0_fpga_interfaces.sv
+    Info (12023): Found entity 1: soc_system_hps_0_fpga_interfaces
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_div_freq.v
+    Info (12023): Found entity 1: soc_system_div_freq
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_dipsw_pio.v
+    Info (12023): Found entity 1: soc_system_dipsw_pio
+Info (12021): Found 1 design units, including 1 entities, in source file soc_system/synthesis/submodules/soc_system_button_pio.v
+    Info (12023): Found entity 1: soc_system_button_pio
+Info (12021): Found 1 design units, including 1 entities, in source file ram_simulacion_ref.v
+    Info (12023): Found entity 1: ram_simulacion_ref
+Info (12021): Found 1 design units, including 1 entities, in source file ram_simulacion_act.v
+    Info (12023): Found entity 1: ram_simulacion_act
+Warning (10236): Verilog HDL Implicit Net warning at hps_sdram_pll.sv(168): created implicit net for "pll_dr_clk"
+Error (10170): Verilog HDL syntax error at hps_control_fpga_led.v(251) near text "<";  expecting ")" File: D:/TESIS/PROYECTO_MAESTRIA/24ago/test_video/video_input_restored/hps_control_fpga_led.v Line: 251
+Error (10112): Ignored design unit "HPS_CONTROL_FPGA_LED" at hps_control_fpga_led.v(37) due to previous errors File: D:/TESIS/PROYECTO_MAESTRIA/24ago/test_video/video_input_restored/hps_control_fpga_led.v Line: 37
+Info (144001): Generated suppressed messages file D:/TESIS/PROYECTO_MAESTRIA/24ago/test_video/video_input_restored/HPS_CONTROL_FPGA_LED.map.smsg
+Error: Quartus II 64-Bit Analysis & Synthesis was unsuccessful. 2 errors, 3 warnings
+    Error: Peak virtual memory: 801 megabytes
+    Error: Processing ended: Tue Sep 06 15:47:14 2016
+    Error: Elapsed time: 00:05:05
+    Error: Total CPU time (on all processors): 00:05:34
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in D:/TESIS/PROYECTO_MAESTRIA/24ago/test_video/video_input_restored/HPS_CONTROL_FPGA_LED.map.smsg.
+
+

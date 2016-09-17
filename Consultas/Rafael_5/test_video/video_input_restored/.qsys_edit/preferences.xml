@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="175" />
+   <irq preferredWidth="63" />
+  </columns>
+ </systemtable>
+ <library expandedCategories="Project/System,Library,Project" />
+ <window width="1382" height="754" x="-8" y="-8" />
+ <hdlexample language="VERILOG" />
+ <generation
+   path="D:/TESIS/TFM_MOTION_ESTIMATION/HARDWARE/CodeGenerated/DE1_SOC/TFM_ME" />
+</preferences>
