@@ -617,56 +617,16 @@
  <interface name="memory" internal="hps_0.memory" type="conduit" dir="end" />
  <interface name="reset" internal="clk_0.clk_in_reset" type="reset" dir="end" />
  <interface name="reset_0" internal="clk_1.clk_in_reset" type="reset" dir="end" />
- <interface
-   name="video_input_0_in"
-   internal="video_input_0.in"
-   type="avalon"
-   dir="end" />
- <interface
-   name="video_input_1_in"
-   internal="video_input_1.in"
-   type="avalon"
-   dir="end" />
- <interface
-   name="video_input_2_in"
-   internal="video_input_2.in"
-   type="avalon"
-   dir="end" />
- <interface
-   name="video_input_3_in"
-   internal="video_input_3.in"
-   type="avalon"
-   dir="end" />
- <interface
-   name="video_input_4_in"
-   internal="video_input_4.in"
-   type="avalon"
-   dir="end" />
- <interface
-   name="video_input_5_in"
-   internal="video_input_5.in"
-   type="avalon"
-   dir="end" />
- <interface
-   name="video_input_6_in"
-   internal="video_input_6.in"
-   type="avalon"
-   dir="end" />
- <interface
-   name="video_input_7_in"
-   internal="video_input_7.in"
-   type="avalon"
-   dir="end" />
- <interface
-   name="video_input_8_in"
-   internal="video_input_8.in"
-   type="avalon"
-   dir="end" />
- <interface
-   name="video_input_9_in"
-   internal="video_input_9.in"
-   type="avalon"
-   dir="end" />
+ <interface name="video_input_0_in" internal="video_input_0.in" />
+ <interface name="video_input_1_in" internal="video_input_1.in" />
+ <interface name="video_input_2_in" internal="video_input_2.in" />
+ <interface name="video_input_3_in" internal="video_input_3.in" />
+ <interface name="video_input_4_in" internal="video_input_4.in" />
+ <interface name="video_input_5_in" internal="video_input_5.in" />
+ <interface name="video_input_6_in" internal="video_input_6.in" />
+ <interface name="video_input_7_in" internal="video_input_7.in" />
+ <interface name="video_input_8_in" internal="video_input_8.in" />
+ <interface name="video_input_9_in" internal="video_input_9.in" />
  <interface
    name="video_input_in"
    internal="video_input.in"
@@ -1412,7 +1372,7 @@
    name="video_input_0"
    kind="altera_avalon_fifo"
    version="15.0"
-   enabled="1">
+   enabled="0">
   <parameter name="avalonMMAvalonMMDataWidth" value="32" />
   <parameter name="avalonMMAvalonSTDataWidth" value="32" />
   <parameter name="bitsPerSymbol" value="16" />
@@ -1437,7 +1397,7 @@
    name="video_input_1"
    kind="altera_avalon_fifo"
    version="15.0"
-   enabled="1">
+   enabled="0">
   <parameter name="avalonMMAvalonMMDataWidth" value="32" />
   <parameter name="avalonMMAvalonSTDataWidth" value="32" />
   <parameter name="bitsPerSymbol" value="16" />
@@ -1462,7 +1422,7 @@
    name="video_input_2"
    kind="altera_avalon_fifo"
    version="15.0"
-   enabled="1">
+   enabled="0">
   <parameter name="avalonMMAvalonMMDataWidth" value="32" />
   <parameter name="avalonMMAvalonSTDataWidth" value="32" />
   <parameter name="bitsPerSymbol" value="16" />
@@ -1487,7 +1447,7 @@
    name="video_input_3"
    kind="altera_avalon_fifo"
    version="15.0"
-   enabled="1">
+   enabled="0">
   <parameter name="avalonMMAvalonMMDataWidth" value="32" />
   <parameter name="avalonMMAvalonSTDataWidth" value="32" />
   <parameter name="bitsPerSymbol" value="16" />
@@ -1512,7 +1472,7 @@
    name="video_input_4"
    kind="altera_avalon_fifo"
    version="15.0"
-   enabled="1">
+   enabled="0">
   <parameter name="avalonMMAvalonMMDataWidth" value="32" />
   <parameter name="avalonMMAvalonSTDataWidth" value="32" />
   <parameter name="bitsPerSymbol" value="16" />
@@ -1537,7 +1497,7 @@
    name="video_input_5"
    kind="altera_avalon_fifo"
    version="15.0"
-   enabled="1">
+   enabled="0">
   <parameter name="avalonMMAvalonMMDataWidth" value="32" />
   <parameter name="avalonMMAvalonSTDataWidth" value="32" />
   <parameter name="bitsPerSymbol" value="16" />
@@ -1562,7 +1522,7 @@
    name="video_input_6"
    kind="altera_avalon_fifo"
    version="15.0"
-   enabled="1">
+   enabled="0">
   <parameter name="avalonMMAvalonMMDataWidth" value="32" />
   <parameter name="avalonMMAvalonSTDataWidth" value="32" />
   <parameter name="bitsPerSymbol" value="16" />
@@ -1587,7 +1547,7 @@
    name="video_input_7"
    kind="altera_avalon_fifo"
    version="15.0"
-   enabled="1">
+   enabled="0">
   <parameter name="avalonMMAvalonMMDataWidth" value="32" />
   <parameter name="avalonMMAvalonSTDataWidth" value="32" />
   <parameter name="bitsPerSymbol" value="16" />
@@ -1612,7 +1572,7 @@
    name="video_input_8"
    kind="altera_avalon_fifo"
    version="15.0"
-   enabled="1">
+   enabled="0">
   <parameter name="avalonMMAvalonMMDataWidth" value="32" />
   <parameter name="avalonMMAvalonSTDataWidth" value="32" />
   <parameter name="bitsPerSymbol" value="16" />
@@ -1637,7 +1597,7 @@
    name="video_input_9"
    kind="altera_avalon_fifo"
    version="15.0"
-   enabled="1">
+   enabled="0">
   <parameter name="avalonMMAvalonMMDataWidth" value="32" />
   <parameter name="avalonMMAvalonSTDataWidth" value="32" />
   <parameter name="bitsPerSymbol" value="16" />
