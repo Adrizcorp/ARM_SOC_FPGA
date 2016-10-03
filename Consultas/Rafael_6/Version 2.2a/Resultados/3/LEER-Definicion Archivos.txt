@@ -1,0 +1,7 @@
+*act.jpg,bmp: Imagen actual usada para buscar estimacion de movimiento.
+*ref.jpg,bmp: Imagen referencuiausada para buscar estimacion de movimiento.
+*Lref.txt: Ubicacion de los macrobloques de referencia. (se usa con la herramienta de matlab Generador_Estimacion_memat.m)
+*Lact.txt: Ubicacion de los macrobloques de actuales donde se encontraron los de referencia. (se usa con la herramienta de matlab Generador_Estimacion_memat.m)
+*list.list, resultados de Modelsim
+
+

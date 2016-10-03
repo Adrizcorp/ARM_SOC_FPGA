@@ -1,0 +1,3 @@
+No existe Estimacion de movimiento para este caso ya que las dos imagenes no contienen desplazamiento de macrobloques
+si se verifica el archivo list que es el resultado de la simulacion y contendria los vectores de movimeinto, este no
+contiene ninguno.

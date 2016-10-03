@@ -1,0 +1,3 @@
+*dec2hex: Realiza conversion de decimal a hexa de un archivo .mif convertido a txt.( Version 0.1 Mejorar)
+*Generador: Diagrama los vectores de movimiento generados por el algoritmo de MotionEstimation.
+*Generador Macrobloque Gray: Convierte una imagen a macrobloques en escala de grises 640x480 ----> 80x60
