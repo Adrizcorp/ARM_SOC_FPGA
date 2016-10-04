@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Holguer/Documents/GitHub/AdvancedDigitalDesign/ece10243upb2016/Estudiantes/guillermo/archivos_FIR/simulacion
+vbusqueda
+Z0 !s110 1475556363
+!i10b 1
+!s100 aI89`<^10DYW_HDhb_VI[2
+I@1Q<D0SUc]d2QmA^iM1zn0
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dC:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3
+w1475551387
+8C:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/busqueda.v
+FC:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/busqueda.v
+L0 4
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1475556363.308000
+!s107 C:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/busqueda.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/busqueda.v|
+!i113 1
+Z4 o-work work
+vram_simulacion_act
+Z5 !s110 1475556362
+!i10b 1
+!s100 VC9nP`RLmTgN0IATUz8IF3
+I0fe3:bORiCho`8T;z@9TF3
+R1
+R2
+Z6 w1471822120
+Z7 8C:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/ram_simulacion.v
+Z8 FC:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/ram_simulacion.v
+L0 29
+R3
+r1
+!s85 0
+31
+Z9 !s108 1475556362.658000
+Z10 !s107 C:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/ram_simulacion.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/ram_simulacion.v|
+!i113 1
+R4
+vram_simulacion_ref
+R5
+!i10b 1
+!s100 N^2W<PY[if`LUY>j79MVm3
+IkojoXH22V:Y`;d[1LV@Sj0
+R1
+R2
+R6
+R7
+R8
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R4
+vsimulacion_test_busqueda
+R0
+!i10b 1
+!s100 6D5oDmW:TQK<>6fP2eI023
+IK[2lCYBIb?<]D[6lGEzRh1
+R1
+R2
+w1471823315
+8C:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/simulacion_test_busqueda.v
+FC:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/simulacion_test_busqueda.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1475556363.120000
+!s107 C:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/simulacion_test_busqueda.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/simulacion_test_busqueda.v|
+!i113 1
+R4
