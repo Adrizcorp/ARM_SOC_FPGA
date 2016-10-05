@@ -1,0 +1,24 @@
+{C:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/busqueda.v} {1 {vlog -work work -stats=none {C:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/busqueda.v}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module busqueda
+
+Top level modules:
+	busqueda
+
+} {} {}} {C:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/ram_simulacion.v} {1 {vlog -work work -stats=none {C:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/ram_simulacion.v}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module ram_simulacion_ref
+-- Compiling module ram_simulacion_act
+
+Top level modules:
+	ram_simulacion_ref
+	ram_simulacion_act
+
+} {} {}} {C:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/simulacion_test_busqueda.v} {1 {vlog -work work -stats=none {C:/Users/Holguer/Documents/GitHub/SAntoto/ARM_SOC_FPGA/Consultas/Rafael_6/Version 2.3/simulacion_test_busqueda.v}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module simulacion_test_busqueda
+
+Top level modules:
+	simulacion_test_busqueda
+
+} {} {}}
